@@ -18,5 +18,8 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/fbv/', include('FunctionBasedView.urls'))
+    # fbv refers to function based view
+    path('api/fbv/', include('FunctionBasedView.urls')),
+    # cbv refers to class based view
+    path('api/cbv/', include('ClassBasedView.urls'))
 ]
