@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'Common',
     'rest_framework',
     'ClassBasedView',
+    'GenericView'
 ]
 
 MIDDLEWARE = [

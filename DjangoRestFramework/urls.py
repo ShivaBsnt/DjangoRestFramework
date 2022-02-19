@@ -21,5 +21,6 @@ urlpatterns = [
     # fbv refers to function based view
     path('api/fbv/', include('FunctionBasedView.urls')),
     # cbv refers to class based view
-    path('api/cbv/', include('ClassBasedView.urls'))
+    path('api/cbv/', include('ClassBasedView.urls')),
+    path('api/generic/', include('GenericView.urls'))
 ]
